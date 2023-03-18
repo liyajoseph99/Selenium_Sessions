@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-13T08:03:25 IST" name="Suite" finished-at="2023-03-13T08:04:21 IST" duration-ms="55996">
+    <groups>
+    </groups>
+    <test started-at="2023-03-13T08:03:25 IST" name="Test" finished-at="2023-03-13T08:04:21 IST" duration-ms="55996">
+      <class name="testNGsession.Alert">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGsession.Alert@34a3d150]" started-at="2023-03-13T08:03:25 IST" name="beforeTest" finished-at="2023-03-13T08:03:48 IST" duration-ms="23417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="simpleAlert()[pri:1, instance:testNGsession.Alert@34a3d150]" started-at="2023-03-13T08:04:14 IST" name="simpleAlert" finished-at="2023-03-13T08:04:16 IST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlert -->
+        <test-method signature="confirmationAlert()[pri:2, instance:testNGsession.Alert@34a3d150]" started-at="2023-03-13T08:04:16 IST" name="confirmationAlert" finished-at="2023-03-13T08:04:19 IST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationAlert -->
+        <test-method signature="promptalert()[pri:3, instance:testNGsession.Alert@34a3d150]" started-at="2023-03-13T08:04:19 IST" name="promptalert" finished-at="2023-03-13T08:04:20 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptalert -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGsession.Alert@34a3d150]" started-at="2023-03-13T08:04:21 IST" name="afterTest" finished-at="2023-03-13T08:04:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGsession.Alert -->
+      <class name="testNGsession.FileUploadAndDownload">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGsession.FileUploadAndDownload@4c371370]" started-at="2023-03-13T08:03:48 IST" name="setUp" finished-at="2023-03-13T08:04:13 IST" duration-ms="25046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="upload()[pri:0, instance:testNGsession.FileUploadAndDownload@4c371370]" started-at="2023-03-13T08:04:14 IST" name="upload" finished-at="2023-03-13T08:04:21 IST" duration-ms="7316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGsession.FileUploadAndDownload@4c371370]" started-at="2023-03-13T08:04:21 IST" name="tearDown" finished-at="2023-03-13T08:04:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGsession.FileUploadAndDownload -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

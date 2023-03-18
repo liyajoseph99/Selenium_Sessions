@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testNGsession.Alert">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="confirmationAlert"/>
+          <include name="simpleAlert"/>
+          <include name="afterTest"/>
+          <include name="promptalert"/>
+        </methods>
+      </class> <!-- testNGsession.Alert -->
+      <class name="testNGAssgnments.Ass_FileUpload">
+        <methods>
+          <include name="fieUpload"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGAssgnments.Ass_FileUpload -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
